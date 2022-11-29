@@ -25,7 +25,7 @@ import sys
 # Project properties
 #
 
-from version import __build__, __version__
+#from version import __build__, __version__
 
 
 #
