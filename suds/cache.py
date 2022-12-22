@@ -128,7 +128,7 @@ class FileCache(Cache):
             location = self.__get_default_location()
         self.location = location
         self.duration = datetime.timedelta(**duration)
-        self.__check_version()
+        #self.__check_version() # Heron
 
     def clear(self):
         for filename in os.listdir(self.location):
